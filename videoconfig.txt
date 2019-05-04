@@ -1,0 +1,42 @@
+"VideoConfig"
+{
+	"setting.cl_gib_allow"		"0"
+	"setting.cl_particle_fallback_base"		"-999999"
+	"setting.cl_particle_fallback_multiplier"		"-999999"	//Кач-во частиц (2-низкий; 0-Выкл.)
+	"setting.cl_ragdoll_maxcount"		"0"						//Кол-во кукл (мертвые тела)
+	"setting.cl_ragdoll_self_collision"		"0"					//Столкновения (тела и т.д.)
+	"setting.mat_depthfeather_enable"		"0"					//Удаляет эффект размытия при прицеливании
+	"setting.mat_forceaniso"		"4"							//Анизотропная фильтрация кач-во (1-2-4-16)
+	"setting.mat_mip_linear"		"1"							//Вкл. анизотропной фильтрации
+	"setting.stream_memory"		"500000"						//Качество текстур (0-откл)
+	"setting.mat_picmip"		"0"								//Доп.изменение качества текстур (1-высок. 4-низк)(работает при параметре "setting.stream_memory" "0" )
+	"setting.particle_cpu_level"		"0"						//Частицы обрабатываемые процессором (вспышки, взрывы)
+	"setting.r_createmodeldecals"		"0"						//Декали, следы от ударов и прочее
+	"setting.r_decals"		"0"									//Декали, следы от ударов и прочее
+	"setting.r_lod_switch_scale"		"0.350000"				//Качество моделей (0.6 низк)
+	"setting.shadow_enable"		"0"								//Вкл. тени
+	"setting.shadow_depth_dimen_min"		"0"					//Качество теней
+	"setting.shadow_depth_upres_factor_max"		"0"				//Качество теней
+	"setting.shadow_maxdynamic"		"0"							//Максимум динамических теней
+	"setting.ssao_enabled"		"0"								//Вкл. объемного освещения
+	"setting.ssao_downsample"		"3"							//Кач-во объемного освещения (3-низк)
+	"setting.modeldecals_forceAllowed"		"-999999"			//Кач-во декалей
+	"setting.dvs_enable"		"0"								//Вкл адаптивного разрешения
+	"setting.dvs_gpuframetime_min"		"6000"					//Адаптивное разрешение (мин)
+	"setting.dvs_gpuframetime_max"		"6500"					//Адаптивное разрешение	(макс)
+	"setting.defaultres"		"1920"							//Разрешение экрана (1920)
+	"setting.defaultresheight"		"1080"						//Разрешение экрана (1080)
+	"setting.fullscreen"		"1"								//Полноэкранный режим (1-вкл 0-выкл)
+	"setting.nowindowborder"		"0"							//Оконный без рамки (1-вкл 0-выкл)
+	"setting.volumetric_lighting"		"0"						//Объемное освещение
+	"setting.mat_vsync_mode"		"0"							//Вертикальная синхронизация (0-выкл)
+	"setting.mat_backbuffer_count"		"1"					
+	"setting.mat_antialias_mode"		"0"						//Сглаживание (0-выкл. 12-TSAA)
+	"setting.csm_enabled"		"0"								//Вкл Охват теней от солнца
+	"setting.csm_coverage"		"0"								//Охват теней от солнца
+	"setting.csm_cascade_res"		"512"						//Детализация теней (минимальное значение "16")|для слабых пк| ("только чтение")
+	"setting.fadeDistScale"		"1.000000"						//Дальность прорисовки (значения ниже 1, пример: "0.750000")|для слабых пк| ("только чтение")
+	"setting.dvs_supersample_enable"		"0"					//Вкл адаптивного суперсемплинга
+	"setting.gamma"		"1.000000"								//Контра́стность
+	"setting.configversion"		"7"							
+}
