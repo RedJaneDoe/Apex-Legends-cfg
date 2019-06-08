@@ -32,7 +32,7 @@
 	"setting.mat_vsync_mode"		"0"							//Вертикальная синхронизация (0-выкл)
 	"setting.mat_backbuffer_count"		"1"					
 	"setting.mat_antialias_mode"		"0"						//Сглаживание (0-выкл. 12-TSAA)
-	"setting.csm_enabled"		"0"								//Вкл Охват теней от солнца
+	"setting.csm_enabled"		"0"								//Вкл. Охват теней от солнца
 	"setting.csm_coverage"		"0"								//Охват теней от солнца
 	"setting.csm_cascade_res"		"512"						//Детализация теней (минимальное значение "16")|для слабых пк| ("только чтение")
 	"setting.fadeDistScale"		"1.000000"						//Дальность прорисовки (значения ниже 1, пример: "0.750000")|для слабых пк| ("только чтение")
